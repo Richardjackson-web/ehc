@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './Hero.css';
-import Button from 'react-bootstrap/Button';
 import Offcanvas from 'react-bootstrap/Offcanvas';
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
@@ -17,7 +16,8 @@ function Hero() {
   const handleShow = () => setShow(true);
 
   return (
-    <div className="Hero">
+    <div className="main-hero">
+        <div className="Hero">
         <Navbar variant="light" bg="light">
         <Container>
           <Navbar.Brand href="#"><img className="logo" src={Logo_img}/><img className="logo" src={Logo_text}/></Navbar.Brand>
@@ -41,6 +41,7 @@ function Hero() {
         <button className="start">Get Started</button>
         <img className="scroll" src={Scroll}/>
       </div>
+        </div>
     </div>
   )
 }

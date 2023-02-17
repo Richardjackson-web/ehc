@@ -4,6 +4,10 @@
 :root{
     --bs-light-rgb:;
 }
+.main-hero{
+    background-image: linear-gradient(to left,#91bafd, #071936);
+    height: 2000px;
+}
 .Hero{
     background-image: url(../../Images/hero-bg.png);
     width: 100%;
@@ -14,6 +18,9 @@ height: 1000px;
 }
 .navbar-toggler-icon{
     background-image: url("data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgNDggNDgiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGcgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj48cGF0aCBkPSJNMTAgMTFhMiAyIDAgMCAwLTIgMi4wMDFWMTVhMiAyIDAgMCAwIDIgMi4wMDFoMjhBMiAyIDAgMCAwIDQwIDE1di0xLjk5OUEyIDIgMCAwIDAgMzggMTFIMTBabTAgOWEyIDIgMCAwIDAtMiAydjJjMCAxLjEwNi44OTUgMiAyIDJoMjhjMS4xMDUgMCAyLS44OTQgMi0ydi0yYTIgMiAwIDAgMC0yLTJIMTBabTAgOC45OTlBMiAyIDAgMCAwIDggMzF2MS45OTlBMiAyIDAgMCAwIDEwIDM1aDI4YTIgMiAwIDAgMCAyLTIuMDAxVjMxYTIgMiAwIDAgMC0yLTIuMDAxSDEwWiIgZmlsbD0iI2ZmZmZmZiIgY2xhc3M9ImZpbGwtMDAwMDAwIj48L3BhdGg+PC9nPjwvc3ZnPg==");
+}
+.menu{
+    cursor: pointer;
 }
 .log1{
     color:#fff;
