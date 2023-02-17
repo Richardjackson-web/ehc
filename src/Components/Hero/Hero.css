@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+:root{
+    --bs-light-rgb:;
+}
+.Hero{
+    background-image: url(../../Images/hero-bg.png);
+    width: 100%;
+height: 1000px;
+}
+.bg-light{
+    background-color: rgba(var(--bs-light-rgb),var(--bs-bg-opacity))!important;
+}
+.navbar-toggler-icon{
+    background-image: url("data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgNDggNDgiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGcgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj48cGF0aCBkPSJNMTAgMTFhMiAyIDAgMCAwLTIgMi4wMDFWMTVhMiAyIDAgMCAwIDIgMi4wMDFoMjhBMiAyIDAgMCAwIDQwIDE1di0xLjk5OUEyIDIgMCAwIDAgMzggMTFIMTBabTAgOWEyIDIgMCAwIDAtMiAydjJjMCAxLjEwNi44OTUgMiAyIDJoMjhjMS4xMDUgMCAyLS44OTQgMi0ydi0yYTIgMiAwIDAgMC0yLTJIMTBabTAgOC45OTlBMiAyIDAgMCAwIDggMzF2MS45OTlBMiAyIDAgMCAwIDEwIDM1aDI4YTIgMiAwIDAgMCAyLTIuMDAxVjMxYTIgMiAwIDAgMC0yLTIuMDAxSDEwWiIgZmlsbD0iI2ZmZmZmZiIgY2xhc3M9ImZpbGwtMDAwMDAwIj48L3BhdGg+PC9nPjwvc3ZnPg==");
+}
+.log1{
+    color:#fff;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+}
+.log2{
+    padding-right: 30px;    
+    color:#fff;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+}
+.welcome{
+    text-align: center;
+    margin-top: 7rem;
+    position: relative;
+}
+.welcome-head{
+    font-family: 'Unbounded';
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+color: #fff;
+}
+.welcome-text{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+color: #D8D7D9;
+margin-top: 3rem;
+}
+.start{
+    background: rgba(51, 185, 203, 0.65);
+    border-color: rgba(51, 185, 203, 0.65);
+    padding: 8px 35px 8px 35px;
+backdrop-filter: blur(12px);
+border-radius: 8px;
+box-sizing: border-box;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+color: #FFFFFF;
+margin-top: 3rem;
+}
+.scroll{
+    position: absolute;
+    left: 20px;
+}
+
+
+/* Mobile Responsiveness */
+@media screen and (max-width:480px) {
+ .logo{
+    max-width: 40%;
+ }   
+ .log{
+    font-size: 10px
+ }
+ .menu{
+    max-width: 10%;
+ }
+ .welcome{
+    margin-top: 6rem;
+    padding-bottom: 20px;
+ }
+ .welcome-head{
+    font-size: 30px;
+ }
+ .welcome-text{
+    font-size: 16px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 1rem;
+ }
+ .start{
+    margin-top: 1rem;
+    padding: 5px 30px 5px 30px;
+    font-size: 12px;
+ }
+ .scroll{
+    max-width: 15%;
+ }
+ .break{
+    display: none;
+ }
+ .Hero{
+    height: auto;
+ }
+}
